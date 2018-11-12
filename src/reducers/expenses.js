@@ -15,3 +15,4 @@ const expensesReducer = (state = expensesReducerDefaultState, action) => {
         default:
             return state;
     }
+}
