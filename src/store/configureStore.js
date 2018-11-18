@@ -3,7 +3,7 @@ import expensesReducer from "../reducers/expenses";
 import filtersReducers from "../reducers/filters";
 
 export default () => {
-    const store = createStore(
+    const store = Redux.createStore(
         combineReducers({
             expenses: expensesReducer,
             filter: filtersReducers
