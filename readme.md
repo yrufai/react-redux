@@ -1,3 +1,3 @@
-#playing with redux
+#Playing with redux
 
 How to use redux to manage state in react apps... 
